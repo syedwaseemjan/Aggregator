@@ -7,7 +7,7 @@ Here is somewhat matching summary of what was required of me:
 
 	{"tid": "40016498", "timestamp": "1404680438", "amount": "0.011", "type": "bid", "price": "630.99"}
 
-	Each row represents a time of transaction. You are supposed to aggregate the input by hours so if the 
+	Each row represents a transaction. You are supposed to aggregate the input by hours so if the 
 	timestamp for a row is 6:30PM, it should be place in 6PM group. For each group you are supposed to 
 	print the following items to stdout.
 
