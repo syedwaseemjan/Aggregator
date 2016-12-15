@@ -15,6 +15,7 @@ Here is somewhat matching summary of what was required of me:
 	2- Min, Max, First, Last value for price.
 	3- Sum of amount. 
 
+	
 	At first I did this by manually iterating through the input, creating dictionaries, iterating again 
 	and calulating all the required items. The program performed horibbly as in some cases the input 
 	exceeded 5GB of dataset.
