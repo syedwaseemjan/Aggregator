@@ -1,7 +1,7 @@
 # Aggregator
 Python application demonstrating how we can avoid re-inventing the wheel and save a lot of time by using third party libs. Few days back I was assigned some Big Data task at my former company. I spent a lot of energy and hours, completed the task but the results were "Horrible".
 
-Here is somewhat matching summary of what was required of me.
+Here is somewhat matching summary of what was required of me.:
 
 
 You have an input file trades.dat containing json objects on each line.
