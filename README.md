@@ -16,10 +16,7 @@ Here is somewhat matching summary of what was required of me:
 	3- Sum of amount. 
 
 	
-	At first I did this by manually iterating through the input, creating dictionaries, iterating again 
-	and calulating all the required items. The program performed horibbly as in some cases the input 
-	exceeded 5GB of dataset.
-
+At first I did this by manually iterating through the input, creating dictionaries, iterating again and calulating all the required items. The program performed horibbly as in some cases the input exceeded 5GB of dataset.
 
 How to avoid this? Pandas and Numpy to the rescue.
 
