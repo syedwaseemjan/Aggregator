@@ -3,7 +3,7 @@ Python application demonstrating how we can avoid re-inventing the wheel and sav
 
 Here is somewhat matching summary of what was required of me:
 
-	You have an input file trades.dat containing json objects on each line.
+	You have an input file trades.dat containing json object on each line.
 
 	{"tid": "40016498", "timestamp": "1404680438", "amount": "0.011", "type": "bid", "price": "630.99"}
 
