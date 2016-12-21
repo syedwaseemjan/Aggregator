@@ -35,10 +35,7 @@ def process_file(file_name):
 	#group_by = df.groupby(pd.TimeGrouper(freq='30Min'))
 
 	print "GroupBy Data Frame:---------------------------------------------------"
-	rslt = group_by.agg({'amount' : np.sum, 'price' : [np.min, np.max, 'first', 'last']})
-
-	for key, item in rslt:
-		print rslt.get_group(key), "\n\n"
+	print group_by.agg({'amount' : np.sum, 'price' : [np.min, np.max, 'first', 'last']})
 
 if __name__ == '__main__':
 	file_name = None
